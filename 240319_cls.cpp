@@ -86,7 +86,7 @@ int main(int argc, char* argv[]) {
     //bool b = -10;
     //std::cout << "b = " << std::boolalpha << b << "\n";
     //std::cout << "b = " << b << "\n";
-    //bool b1{ -10 };   // compile error
+    //bool b1{ -10 };   // narrowing conversion error(0 or 1 is fine)
     //std::cout << "b = " << b1 << "\n";
 
 
